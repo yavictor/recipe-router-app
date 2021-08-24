@@ -1,6 +1,6 @@
 import { CatalogItem } from "./CatalogItem";
 
-function CategoryList({catalog = []}) {
+function CatalogList({catalog = []}) {
   return (
     <div className="catalog">
       {catalog.map(el => {
@@ -10,4 +10,4 @@ function CategoryList({catalog = []}) {
   );
 }
 
-export { CategoryList };
+export { CatalogList };

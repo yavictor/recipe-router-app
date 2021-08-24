@@ -33,3 +33,16 @@ code {
   text-overflow:ellipsis;
   max-width: 200px;
 }
+
+.back-btn {
+  margin-top: 0.5rem;
+}
+
+.meal-photo {
+  max-width: 100%;
+}
+
+/* .meal-video-instruction {
+  width: 600px;
+  height: 350px;
+} */

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getAllCategories } from '../api';
-import { CategoryList } from '../components/CategoryList';
+import { CatalogList } from '../components/CatalogList';
 import { Preloader } from '../components/Preloader';
 
 
@@ -18,7 +18,7 @@ function Home() {
     {!catalog.length ? (
       <Preloader /> 
     ) : (
-      <CategoryList catalog={catalog} />
+      <CatalogList catalog={catalog} />
     )}
   </>
   );
