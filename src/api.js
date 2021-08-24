@@ -15,4 +15,4 @@ const getFilteredCaregory = async (category) => {
   return await response.json();
 };
 
-export ( getMealById, getAllCategories, getFilteredCaregory );
+export { getMealById, getAllCategories, getFilteredCaregory };
