@@ -34,15 +34,14 @@ code {
   max-width: 200px;
 }
 
-.back-btn {
+.back-btn-top {
   margin-top: 0.5rem;
+}
+
+.back-btn-bottom {
+  margin-bottom: 0.5rem;
 }
 
 .meal-photo {
   max-width: 100%;
 }
-
-/* .meal-video-instruction {
-  width: 600px;
-  height: 350px;
-} */

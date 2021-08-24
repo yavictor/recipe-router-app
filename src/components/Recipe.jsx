@@ -16,7 +16,7 @@ function Recipe(props) {
 
   return (
     <>
-      <button className="btn-small orange back-btn" onClick={goBack}>Back</button>
+      <button className="btn-small orange back-btn-top" onClick={goBack}>Back</button>
       {!recipe.hasOwnProperty('idMeal') ? (
         <Preloader /> 
       ) : (
@@ -62,6 +62,7 @@ function Recipe(props) {
           <p>{recipe.strInstructions}</p>
         </div>
       )}
+      <button className="btn-small orange back-btn-bottom" onClick={goBack}>Back</button>
     </>
   );
 }

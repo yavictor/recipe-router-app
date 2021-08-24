@@ -16,7 +16,7 @@ function Category() {
   }, [name]);
   return (
     <>
-      <button className="btn-small orange back-btn" onClick={goBack}>Back</button>
+      <button className="btn-small orange back-btn-top" onClick={goBack}>Back</button>
       {!meals.length ? (
         <Preloader /> 
       ) : (
