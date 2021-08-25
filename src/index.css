@@ -42,6 +42,12 @@ code {
   margin-bottom: 0.5rem;
 }
 
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .meal-photo {
   max-width: 100%;
 }
