@@ -1,6 +1,6 @@
 {
   "name": "recipe-router-app",
-  "honepage": "https://yavictor.github.io/recipe-router-app/",
+  "homepage": "https://yavictor.github.io/recipe-router-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
