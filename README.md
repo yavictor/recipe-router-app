@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Recipe router app
+
+View on Github Pages
+[https://yavictor.github.io/recipe-router-app/](https://yavictor.github.io/recipe-router-app/)
+
+You can choose category you like on home page or search it in searc input. Then select recipe you liked, and see list of 
+ingredients and full instuction how to cook it.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
