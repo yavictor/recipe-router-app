@@ -6,12 +6,12 @@ function Header() {
     <nav>
       <div className="orange nav-wrapper">
         <Link to="/" className="brand-logo center">
-          React-Shop
+          Recipe-router-app
         </Link>
         <ul className="left hide-on-med-and-down">
           <li>
             <a
-              href="https://github.com/yavictor/rect-router-app"
+              href="https://github.com/yavictor/recipe-router-app"
               target="_blank"
               rel="noopener noreferrer"
             >

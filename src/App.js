@@ -11,7 +11,7 @@ import { Recipe } from './components/Recipe';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/recipe-router-app">
         <Header />
         <main className="container content">
           <Switch>
